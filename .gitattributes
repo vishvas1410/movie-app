@@ -6,7 +6,3 @@
 
 # Downplay other languages (example with Python)
 *.py linguist-vendored
-
-# Downplay other common directories
-vendor/* linguist-vendored
-node_modules/* linguist-vendored
