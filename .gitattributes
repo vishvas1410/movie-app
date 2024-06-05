@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Prioritize JavaScript files
+*.js linguist-language=JavaScript
+
+# Downplay other languages (example with Python)
+*.py linguist-vendored
+
+# Downplay other common directories
+vendor/* linguist-vendored
+node_modules/* linguist-vendored
